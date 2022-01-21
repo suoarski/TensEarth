@@ -1,0 +1,15 @@
+
+.ipynb_checkpoints
+__pycache__
+
+Emails
+FirstAttempt/Data/ImageTrainingData/Features
+FirstAttempt/Data/ImageTrainingData/Targets
+FirstAttempt/Data/SmallImageTrainingDataset/Features
+FirstAttempt/Data/SmallImageTrainingDataset/Targets
+FirstAttempt/Data/TrainingData/
+FirstAttempt/Data/TrainingData/initLandscape.npz
+FirstAttempt/ProgressImages
+
+SecondAttempt/Data/GosplTrials/
+SecondAttempt/Data/TrialsWithSubdivision6

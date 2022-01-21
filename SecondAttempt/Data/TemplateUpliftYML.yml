@@ -1,0 +1,46 @@
+name: Global model using present-day topography with dual lithologies
+
+domain:
+    npdata: '{}/NPZFiles/initElevations'
+    flowdir: 5
+    fast: False
+    backward: False
+    interp: 1
+
+time:
+    start: {}.
+    end: {}.
+    tout: {}.
+    dt: {}.
+    tec: {}.
+
+spl:
+    wfill: 100.
+    sfill: 10.
+    K: 3.e-8
+    d: 0.42
+
+diffusion:
+    hillslopeKa: 0.02
+    hillslopeKm: 0.2
+    dstep: 5
+    sedK: 100.
+    sedKf: 200.
+    sedKw: 300
+
+sea:
+    position: 0.
+
+tectonic:
+ - start: {}.
+   end: {}.
+   mapH: '{}/NPZfiles/uplift'
+   mapV: '{}/NPZfiles/tecvert'
+
+climate:
+  - start: 0.
+    uniform: 1.
+
+output:
+    dir: '{}/NoiseSphere'
+    makedir: False
