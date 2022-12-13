@@ -1,3 +1,6 @@
+# Video Presentation
+See the [linked youtube video](https://youtu.be/Qy5L-jMPZ2k) for a video presentation of this project.
+
 # TensEarth
 This repository contains a series of attempts of teaching various machine learning algorithms to simulate landscape dynamics due to erosion, tectonic forcing and various other geological phenomina. 
 
